@@ -20,7 +20,7 @@
   },
   "device_tuning": {
     "iQOO_Neo7_SE": {
-      "eq": [4.5, 6.0, 5.5, 3.0, 1.5, 2.0, 2.5, 1.5, 0.0, -1.0],
+      "eq": [3.0, 1.5, -1.0, 2.5, 0.5, 1.5, -1.5, -2.0, -2.0, 1.5],
       "dynamic_bass": {
         "max_gain": 6.0,
         "compressor_threshold": 0.55,
@@ -29,7 +29,7 @@
       },
       "psycho_bass_intensity": 0.85,
       "elastic_strength": 0.7,
-      "description": "金耳朵调音 - iQOO Neo7 SE 防破音优化（系统音效开启）"
+      "description": "金耳朵调音 - iQOO Neo7 SE 系统音效开启大师级（低音雄厚、中频饱满、高音柔和）"
     },
     "iQOO_Neo7_SE_NoDSP": {
       "role": "enhance",
@@ -78,7 +78,7 @@
       },
       "psycho_bass_intensity": 0.8,
       "elastic_strength": 0.75,
-      "description": "金耳朵调音 - 小米10 Pro (小米10S大师级PEQ转换，高音柔和、中频饱满、低频弹性)"
+      "description": "金耳朵调音 - 小米10S 1216对称双扬大师级（高音柔和不刺、中频饱满、低频雄厚有弹性）"
     }
   }
 }
