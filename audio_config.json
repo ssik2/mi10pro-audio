@@ -29,12 +29,59 @@
       },
       "psycho_bass_intensity": 0.85,
       "elastic_strength": 0.7,
-      "description": "金耳朵调音 - iQOO Neo7 SE 防破音优化"
+      "description": "金耳朵调音 - iQOO Neo7 SE 防破音优化（系统音效开启）"
+    },
+    "iQOO_Neo7_SE_NoDSP": {
+      "role": "enhance",
+      "eq": [5.0, 1.5, -1.5, 3.5, 0.0, 2.0, -0.5, -2.0, -2.5, 2.0],
+      "dynamic_bass": {
+        "max_gain": 6.0,
+        "compressor_threshold": 0.55,
+        "compressor_ratio": 4.0,
+        "limiter_threshold": 0.88
+      },
+      "psycho_bass_intensity": 0.7,
+      "elastic_strength": 0.8,
+      "description": "金耳朵调音 - 虚拟低音 + 硬件优化，禁用系统音效后效果最佳（大师级PEQ转换）"
     },
     "OnePlus_Ace5": {
       "eq": [5.0, 7.0, 6.0, 4.0, 2.0, 2.5, 2.0, 1.0, 0.0, -1.0],
       "dynamic_bass": {
         "max_gain": 7.5,
+        "compressor_threshold": 0.6,
+        "compressor_ratio": 3.5,
+        "limiter_threshold": 0.9
+      },
+      "psycho_bass_intensity": 0.9,
+      "elastic_strength": 0.85,
+      "description": "金耳朵调音 - 一加 Ace5 (1012+1115) 弹性低音"
+    },
+    "OnePlus_12": {
+      "eq": [3.0, 4.5, 4.0, 2.5, 1.5, 1.0, 0.5, 0.0, -0.5, -1.0],
+      "dynamic_bass": {
+        "max_gain": 5.0,
+        "compressor_threshold": 0.7,
+        "compressor_ratio": 2.5,
+        "limiter_threshold": 0.92
+      },
+      "psycho_bass_intensity": 0.0,
+      "elastic_strength": 0.6,
+      "description": "金耳朵调音 - 配合官方 NLC 算法，补偿中高频"
+    },
+    "Xiaomi_Mi10Pro": {
+      "eq": [3.5, 2.0, -2.5, 0.0, -1.5, 0.0, 2.0, 1.0, -2.0, 3.5],
+      "dynamic_bass": {
+        "max_gain": 8.0,
+        "compressor_threshold": 0.65,
+        "compressor_ratio": 3.0,
+        "limiter_threshold": 0.9
+      },
+      "psycho_bass_intensity": 0.8,
+      "elastic_strength": 0.75,
+      "description": "金耳朵调音 - 小米10 Pro (小米10S大师级PEQ转换，高音柔和、中频饱满、低频弹性)"
+    }
+  }
+}        "max_gain": 7.5,
         "compressor_threshold": 0.6,
         "compressor_ratio": 3.5,
         "limiter_threshold": 0.9
